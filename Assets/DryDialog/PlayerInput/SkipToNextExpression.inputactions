@@ -1,0 +1,45 @@
+{
+    "name": "SkipToNextExpression",
+    "maps": [
+        {
+            "name": "Skip",
+            "id": "4f1ce2e1-ff1e-4770-8546-9d5e7922cbaa",
+            "actions": [
+                {
+                    "name": "SkipToNextExpression",
+                    "type": "Button",
+                    "id": "d234fc04-3b25-4cb3-9b91-d206f66496db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b2aeb608-d0ae-4a20-a16d-399827c2e548",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipToNextExpression",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2be31404-87eb-4237-a362-9a2704c6b126",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipToNextExpression",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

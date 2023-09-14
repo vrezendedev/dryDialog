@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f878cbbff8759eb44b98b4b813ef0764
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textPanel: {instanceID: 0}
+  - textHolder: {instanceID: 0}
+  - inputAction: {fileID: -944628639613478452, guid: afd53a5b13d534441a8906acf1b400ce,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

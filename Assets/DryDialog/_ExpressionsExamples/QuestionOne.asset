@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5b324c037d09343a589deee66aa318, type: 3}
+  m_Name: QuestionOne
+  m_EditorClassIdentifier: 
+  Speaker: Speaker Zero
+  SpeakerPortrait: {fileID: 0}
+  Sentence: 'Am I questioning? Am I questioning? Am I questioning? '
+  ID: 1
+  Options:
+  - {fileID: 11400000, guid: 1204e80643a89ff4e90ae2cb1c78d2e5, type: 2}
+  - {fileID: 11400000, guid: 68af731f26946a441a3413a27bdc777b, type: 2}
+  - {fileID: 11400000, guid: 711891e8dc310864787d0d06e59b1df1, type: 2}
+  - {fileID: 11400000, guid: bc3ba447b425f9743b97b1e84a3cf0ad, type: 2}
+  Feedback:
+  - {fileID: 11400000, guid: 873ae1ab5ae6d014e8d3d0f18bc6a859, type: 2}
+  - {fileID: 11400000, guid: f8d69bd943cedf041ae051824f00e81d, type: 2}
+  - {fileID: 11400000, guid: 5368af69a2d69de4182516cbede00e17, type: 2}
+  - {fileID: 11400000, guid: e5137edbe9a080245bb4ae01487bd15d, type: 2}
