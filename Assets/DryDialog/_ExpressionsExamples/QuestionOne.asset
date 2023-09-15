@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QuestionOne
   m_EditorClassIdentifier: 
   Speaker: Speaker Zero
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: 0917a2c512e448548afb0b5e536e1084, type: 3}
   Sentence: 'Am I questioning? Am I questioning? Am I questioning? '
   ID: 1
   Options:

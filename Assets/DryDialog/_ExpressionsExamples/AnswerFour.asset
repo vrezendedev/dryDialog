@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86df383835386b44a8e73bb59d403811, type: 3}
   m_Name: AnswerFour
   m_EditorClassIdentifier: 
-  Respondant: RespondantOne
-  RespondantPortrait: {fileID: 0}
+  Respondant: Respondant Four
+  RespondantPortrait: {fileID: 21300000, guid: a55c3b6e7562bf3468260e50153bc9ee, type: 3}
   ID: 4
   Value: 
   Sentence: I'm answering again again again...

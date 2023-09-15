@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: AssertionOne
   m_EditorClassIdentifier: 
   Speaker: Speaker One
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: 0917a2c512e448548afb0b5e536e1084, type: 3}
   Sentence: This is an assertion (1)...
   Feedback: {fileID: 11400000, guid: f8d69bd943cedf041ae051824f00e81d, type: 2}
