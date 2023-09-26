@@ -51,6 +51,7 @@ public class DialogManager : MonoBehaviour
     private List<Tuple<Question, Answer>> _questionsAndAnswerHistoric = new List<Tuple<Question, Answer>>();
 
     public static UnityAction<Conversation> Talk;
+    public static UnityAction<string> AnswerChoosen;
 
     void OnEnable() => Talk += HandleTalk;
     void OnDisable() => Talk -= HandleTalk;
@@ -212,6 +213,8 @@ public class DialogManager : MonoBehaviour
 
     private void HandleChosenAnswer(int index)
     {
+        AnswerChoosen.Invoke((_currentExpression as Question).Options[index].Value);
+
         foreach (Button child in textPanel.GetComponentsInChildren<Button>())
         {
             child.onClick.RemoveAllListeners();
@@ -231,8 +234,8 @@ public class DialogManager : MonoBehaviour
             respondantName.gameObject.SetActive(false);
 
         if (respondantName != null)
-
             HandleExpression((_currentExpression as Question).Feedback[index]);
+
     }
 
     private IEnumerator Express(string sentence, Action callback = null)
