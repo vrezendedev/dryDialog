@@ -40,7 +40,7 @@ It is a basic system developed for a MVP, feel free to tweak as you need it. Whe
 
 -   And then, finally, Call the Event "Talk" similar to this example:
 
-    `
+    ```
     using UnityEngine;
 
     public class EventCaller : MonoBehaviour
@@ -65,8 +65,6 @@ It is a basic system developed for a MVP, feel free to tweak as you need it. Whe
         void Start() => DialogManager.Talk(conversation);
 
     }
-
-`
 
 -   Done!
 
