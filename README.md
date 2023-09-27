@@ -38,7 +38,7 @@ It is a basic system developed for a MVP, feel free to tweak as you need it. Whe
 
 -   Create a Dialog Manager like the one on the Example scene.
 
--   And then, finally, Call the Event "Talk" similar to this example:
+-   And then, finally, Call the Event "Talk" as the example below:
 
     ```
     using UnityEngine;
