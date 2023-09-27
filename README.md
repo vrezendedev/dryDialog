@@ -12,6 +12,16 @@ DryDialog is a basic dialog system that base itself around "Expressions" that ca
 
 It is a basic system developed for a MVP, feel free to tweak as you need it. When integrating with the answer event, an idea is to create a dictionary of <string, Func> and use the value returned as the key to execute what you need to be executed. I still need to create it as a Unity package or something like that, I'll figured it out later.
 
+## Examples of Dry Dialog
+
+![Example  - 1](./pics/Example_One.png)
+
+![Example  - 2](./pics/Example_Two.png)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## Using
 
 ![Tutorial - Part 1](./pics/Tuto_01.png)
@@ -66,13 +76,3 @@ It is a basic system developed for a MVP, feel free to tweak as you need it. Whe
 
     }
 ```
-
-## Examples of Dry Dialog
-
-![Example  - 1](./pics/Example_One.png)
-
-![Example  - 2](./pics/Example_Two.png)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
